@@ -19,8 +19,32 @@
             <!--</intent-filter>-->
         </activity>
 
-        <!--用户自定义view，并 -->
+        <!--用户自定义view（自己拖动小球） -->
         <activity android:name="com.zifang.charpter2.v2_1_5_user_define_view.CustomViewActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <!--霓虹灯效果 -->
+        <activity android:name="com.zifang.charpter2.v2_2_3_neon.Neon">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <!--输入框 -->
+        <activity android:name="com.zifang.charpter2.v2_3_2_input_page.InputPage">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <!--单选框，复选框 -->
+        <activity android:name="com.zifang.charpter2.v2_3_5_select_message.SelectMessage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

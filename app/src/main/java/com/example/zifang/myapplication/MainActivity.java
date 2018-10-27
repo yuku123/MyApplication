@@ -68,28 +68,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void ex_1_PhotoClick() {
-        setContentView(R.layout.activity_main);
-        LinearLayout main = (LinearLayout) findViewById(R.id.main);
-        final ImageView image = new ImageView(this);
-        main.addView(image);
-        image.setImageResource(images[0]);
-        image.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                image.setImageResource(images[++currentImg % images.length]);
-            }
-        });
-    }
-
-    public void ex_2_BallGoesByFinger() {
-        setContentView(R.layout.draw_view);
-        LinearLayout drawView = (LinearLayout) findViewById(R.id.root);
-        final DrawView drawView1 = new DrawView(this);
-        drawView1.setMinimumHeight(500);
-        drawView1.setMinimumWidth(300);
-        drawView.addView(drawView1);
-    }
     public void ex_3_paoma() {
 
         final int[] colors = new int[]{

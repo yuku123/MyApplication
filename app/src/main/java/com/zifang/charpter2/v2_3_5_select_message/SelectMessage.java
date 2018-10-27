@@ -1,39 +1,23 @@
-package com.example.zifang.myapplication;
+package com.zifang.charpter2.v2_3_5_select_message;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-import java.util.Date;
-import java.util.Timer;
-import java.util.TimerTask;
+import com.example.zifang.myapplication.R;
 
-public class Main extends AppCompatActivity {
+public class SelectMessage extends Activity {
 
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
-
-        // 输入框
-        //ex_4_input();
-        // 各种选择按钮的代码
-        ex_5_selectbButton();
-    }
-
-    private void ex_5_selectbButton() {
-
         setContentView(R.layout.user_select);
 
         final TextView show = findViewById(R.id.radiogroup_show);
@@ -66,11 +50,4 @@ public class Main extends AppCompatActivity {
         });
 
     }
-
-    public void clickHander(View souruce) {
-        TextView textView = findViewById(R.id.show);
-        textView.setText("hellow-" + new Date());
-    }
-
-
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.zifang.myapplication">
+    package="com.zifang">
 
     <application
         android:allowBackup="true"
@@ -13,10 +13,10 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity android:name="com.zifang.charpter2.v2_1_4_simple_photo_chrome.SimplePhotoChrome">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <!--用户自定义view（自己拖动小球） -->
@@ -45,10 +45,10 @@
 
         <!--单选框，复选框 -->
         <activity android:name="com.zifang.charpter2.v2_3_5_select_message.SelectMessage">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
     </application>

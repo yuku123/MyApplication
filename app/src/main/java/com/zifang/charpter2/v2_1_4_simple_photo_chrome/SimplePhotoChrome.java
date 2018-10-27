@@ -5,8 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.zifang.myapplication.R;
+
+import java.util.Date;
 
 public class SimplePhotoChrome extends Activity {
     private int currentColor;
@@ -32,5 +35,10 @@ public class SimplePhotoChrome extends Activity {
                 image.setImageResource(images[++currentImg % images.length]);
             }
         });
+    }
+
+    public void clickHander(View souruce) {
+        TextView textView = findViewById(R.id.show);
+        textView.setText("hellow-w" + new Date());
     }
 }

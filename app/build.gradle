@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'aa'
+            keyPassword 'aa'
+            storeFile file('/Users/zifang/workplace/andriod_workplace/CoolShopping/gradle.properties')
+            storePassword 'aa'
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.example.zifang.myapplication"
@@ -15,11 +23,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
     }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testImplementation 'junit:junit:4.12'

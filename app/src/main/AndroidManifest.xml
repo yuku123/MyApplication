@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.zifang">
+    package="com.example.zifang.myapplication">
 
     <application
         android:allowBackup="true"
@@ -53,9 +53,17 @@
 
         <!--TableLayout-->
         <activity android:name="com.zifang.charpter2.v2_2_2_tablelayout.TableLayout">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <!--TableLayout-->
+        <activity android:name="com.zifang.charpter2.v2_2_4_relative.RelativeLayout">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 

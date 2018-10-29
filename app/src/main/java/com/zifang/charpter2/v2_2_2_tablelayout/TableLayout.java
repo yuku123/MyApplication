@@ -5,7 +5,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.zifang.R;
+import com.example.zifang.myapplication.R;
+
 
 public class TableLayout extends Activity {
     @Override

@@ -59,13 +59,21 @@
             <!--</intent-filter>-->
         </activity>
 
-        <!--TableLayout-->
+        <!--相对布局-->
         <activity android:name="com.zifang.charpter2.v2_2_4_relative.RelativeLayout">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name="com.zifang.charpter2.v2_2_5_grid_layout.GridLayoutTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
 
 
     </application>

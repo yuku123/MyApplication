@@ -21,10 +21,10 @@
 
         <!--用户自定义view（自己拖动小球） -->
         <activity android:name="com.zifang.charpter2.v2_1_5_user_define_view.CustomViewActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <!--霓虹灯效果 -->
@@ -68,10 +68,10 @@
         </activity>
 
         <activity android:name="com.zifang.charpter2.v2_2_5_grid_layout.GridLayoutTest">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
 

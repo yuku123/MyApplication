@@ -13,10 +13,10 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity android:name="com.zifang.charpter2.v2_1_4_simple_photo_chrome.SimplePhotoChrome">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
         <!--用户自定义view（自己拖动小球） -->
@@ -75,7 +75,17 @@
         </activity>
 
 
+        <activity android:name="com.zifang.cloud.CloudTest">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
 
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

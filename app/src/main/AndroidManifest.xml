@@ -75,12 +75,26 @@
         </activity>
 
 
+        <!--成功请求到网络资源-->
         <activity android:name="com.zifang.cloud.CloudTest">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name="com.zifang.cloud.Login">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.zifang.cloud.User"
+            android:label="个人中心"/>
+        <activity android:name="com.zifang.cloud.Register"
+            android:label="用户注册"/>
+        <activity android:name="com.zifang.cloud.Resetpwd"
+            android:label="密码修改"></activity>
 
 
 

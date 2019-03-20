@@ -2,7 +2,6 @@ package com.zifang.cloud;
 
 import android.app.Activity;
 import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;

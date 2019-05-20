@@ -51,6 +51,7 @@ public class Login extends Activity {
         mChangepwdText = (TextView) findViewById(R.id.login_text_change_pwd);
         mRememberCheck = (CheckBox) findViewById(R.id.Login_Remember);
 
+        //获得到小数据库
         login_sp = getSharedPreferences("userInfo", 0);
         String name=login_sp.getString("USER_NAME", "");
         String pwd =login_sp.getString("PASSWORD", "");
